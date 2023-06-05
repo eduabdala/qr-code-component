@@ -7,7 +7,8 @@
 body {
   margin: 0px;
   min-height: 100vh;
-  overflow: hidden;
+  height: 1000px;
+  overflow-x: hidden;
   background-color: hsl(212, 45%, 89%);
   display: flex;
   flex-direction: column;
@@ -59,7 +60,7 @@ p {
 }
 
 footer {
-  position: fixed;
+  margin-top: 200px;
   display: fixed;
   bottom: 0;
   width: 100%;
